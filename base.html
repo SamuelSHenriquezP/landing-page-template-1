@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Plantilla - Landing Page</title>
+    <meta name="description" content="[DESCRIPCIÓN PARA GOOGLE]">
+    <meta property="og:title" content="[NOMBRE DEL NEGOCIO]">
+    <meta property="og:description" content="[TEXTO PARA WHATSAPP]">
+    <meta property="og:image"
+        content="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/tailwind-config.js"></script>
+</head>
+
+<body class="bg-white text-zinc-900 font-sans antialiased">
+
+    <header class="fixed w-full z-50 bg-white/90 backdrop-blur-sm border-b border-zinc-100">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-xl font-serif font-bold tracking-tighter uppercase">[LOGO]</span>
+            <div class="hidden md:flex space-x-10 text-[10px] uppercase tracking-[0.2em] font-bold">
+            </div>
+            <button class="md:hidden text-2xl"><i class="fa-solid fa-bars-staggered"></i></button>
+        </nav>
+    </header>
+
+    <section class="min-h-screen flex items-center pt-20 px-6">
+        <div class="container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12">
+            <div class="lg:col-span-7 reveal">
+                <h1 class="font-serif text-6xl md:text-9xl leading-[0.9] mb-8 tracking-tighter">
+                    [TÍTULO] <br> <span class="italic font-normal text-zinc-300">[EXTRA]</span>
+                </h1>
+                <p class="text-zinc-500 text-lg md:text-xl max-w-md mb-10 leading-relaxed">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                </p>
+                <div class="flex space-x-6 items-center">
+                    <a href="#contacto"
+                        class="bg-zinc-900 text-white px-8 py-4 text-[10px] uppercase tracking-widest font-bold hover:bg-zinc-700 transition">[CTA
+                        PRINCIPAL]</a>
+                </div>
+            </div>
+            <div class="lg:col-span-5 relative reveal" style="transition-delay: 200ms;">
+                <div class="aspect-[3/4] overflow-hidden shadow-2xl bg-zinc-100">
+                    <img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&q=80&w=1000"
+                        class="img-editorial w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="py-20 border-y border-zinc-100 bg-zinc-50/50 reveal">
+        <div class="container mx-auto px-6">
+            <div
+                class="flex flex-wrap justify-around items-center gap-12 grayscale opacity-30 italic font-serif text-2xl">
+                <span>Logo 1</span>
+                <span>Logo 2</span>
+                <span>Logo 3</span>
+                <span>Logo 4</span>
+            </div>
+        </div>
+    </div>
+
+    <section id="servicios" class="py-32 px-6">
+        <div class="container mx-auto">
+            <div class="max-w-xl mb-24 reveal">
+                <h2 class="text-xs uppercase tracking-[0.3em] font-bold text-zinc-400 mb-4">[SERVICIOS]</h2>
+                <h3 class="font-serif text-5xl italic">Lorem ipsum dolor sit amet.</h3>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-16 reveal">
+                <div class="space-y-6">
+                    <div class="h-[1px] w-full bg-zinc-200"></div>
+                    <h4 class="font-bold uppercase text-xs tracking-widest">01 / [SERVICIO]</h4>
+                    <p class="text-zinc-500 text-sm leading-relaxed">Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip.</p>
+                </div>
+                <div class="space-y-6">
+                    <div class="h-[1px] w-full bg-zinc-200"></div>
+                    <h4 class="font-bold uppercase text-xs tracking-widest">02 / [SERVICIO]</h4>
+                    <p class="text-zinc-500 text-sm leading-relaxed">Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip.</p>
+                </div>
+                <div class="space-y-6">
+                    <div class="h-[1px] w-full bg-zinc-200"></div>
+                    <h4 class="font-bold uppercase text-xs tracking-widest">03 / [SERVICIO]</h4>
+                    <p class="text-zinc-500 text-sm leading-relaxed">Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="pb-32 px-6 bg-zinc-900 text-white py-32">
+        <div class="container mx-auto">
+            <h2 class="font-serif text-4xl mb-16 italic reveal text-center">[PROYECTOS SELECCIONADOS]</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="group overflow-hidden reveal">
+                    <div class="aspect-video overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&q=80&w=1200"
+                            class="img-editorial w-full h-full object-cover">
+                    </div>
+                    <p class="mt-4 text-[10px] uppercase font-bold tracking-widest text-zinc-500">[PROYECTO 01]</p>
+                </div>
+                <div class="group overflow-hidden reveal" style="transition-delay: 150ms;">
+                    <div class="aspect-video overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1449247704656-13621df5ee70?auto=format&fit=crop&q=80&w=1200"
+                            class="img-editorial w-full h-full object-cover">
+                    </div>
+                    <p class="mt-4 text-[10px] uppercase font-bold tracking-widest text-zinc-500">[PROYECTO 02]</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-32 px-6 bg-zinc-50">
+        <div class="container mx-auto max-w-5xl">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-24">
+                <div class="reveal">
+                    <h2 class="font-serif text-6xl italic mb-8 italic">[CONTACTO]</h2>
+                    <p class="text-zinc-500 leading-relaxed mb-12">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit.</p>
+                    <div class="space-y-4 text-xs font-bold uppercase tracking-widest">
+                        <p>[EMAIL@NEGOCIO.COM]</p>
+                        <p>[+57 000 000 000]</p>
+                    </div>
+                </div>
+                <form name="contact-form" method="POST" data-netlify="true" class="space-y-8 reveal">
+                    <div class="border-b border-zinc-300 pb-2">
+                        <label class="text-[9px] font-bold uppercase tracking-widest text-zinc-400">Nombre</label>
+                        <input type="text" name="name" required
+                            class="w-full bg-transparent outline-none py-2 font-serif text-xl">
+                    </div>
+                    <div class="border-b border-zinc-300 pb-2">
+                        <label class="text-[9px] font-bold uppercase tracking-widest text-zinc-400">Email</label>
+                        <input type="email" name="email" required
+                            class="w-full bg-transparent outline-none py-2 font-serif text-xl">
+                    </div>
+                    <div class="border-b border-zinc-300 pb-2">
+                        <label class="text-[9px] font-bold uppercase tracking-widest text-zinc-400">Mensaje</label>
+                        <textarea name="message" rows="2"
+                            class="w-full bg-transparent outline-none py-2 font-serif text-xl resize-none"></textarea>
+                    </div>
+                    <button type="submit"
+                        class="w-full bg-zinc-900 text-white text-[10px] uppercase tracking-[0.3em] py-5 font-bold hover:bg-zinc-700 transition shadow-xl">
+                        ENVIAR SOLICITUD
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 px-6 border-t border-zinc-100 opacity-50 italic font-serif text-sm">
+        <div class="container mx-auto flex justify-between items-center">
+            <p>&copy; 2025 [ESTUDIO]</p>
+            <div class="flex space-x-8">
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/57000000000"
+        class="fixed bottom-10 right-10 bg-zinc-900 text-white w-14 h-14 flex items-center justify-center text-xl shadow-2xl z-50 hover:scale-110 transition-transform">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
